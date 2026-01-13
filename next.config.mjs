@@ -2,6 +2,8 @@ import createMDX from "@next/mdx";
 import remarkMath from "remark-math";
 import rehypeMathjax from "rehype-mathjax";
 import remarkWikiLink from "remark-wiki-link";
+import remarkFrontmatter from "remark-frontmatter";
+import remarkMdxFrontmatter from "remark-mdx-frontmatter";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -15,6 +17,8 @@ const withMDX = createMDX({
   options: {
     remarkPlugins: [
       remarkMath,
+      remarkFrontmatter,
+      [remarkMdxFrontmatter, { name: "metadata" }],
       [
         remarkWikiLink,
         {
