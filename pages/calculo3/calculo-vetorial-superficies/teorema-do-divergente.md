@@ -1,3 +1,5 @@
+# Teorema do Divergente
+
 Além do [[Teorema de Stokes]] e do [[Teorema de Green]], um outro poderoso teorema é o Teorema do Divergente ou Teorema de Gauss, uma vez que este permite o cálculo de [[Integrais de superfície]], mais especificamente integrais de fluxo sobre superfícies fechadas, sem a necessidade de realizar a [[Parametrização de superfícies|parametrização]] dessas superfícies, o teorema enuncia o seguinte:
 
 > Seja $E$ uma região sólida simples e $\mathcal S$ a superfície que delimita $E$, positivamente orientada (Para fora) e seja $\vec F$ um [[Campos vetoriais|um campo vetorial]] cujas componentes possuem [[Derivadas parciais]] contínuas, vale que:

@@ -1,10 +1,13 @@
+# Sequências
+
 # Definição e Notação
+
 Uma sequência é uma lista de números $a_1, a_2, a_3, \cdots, a_n, \cdots$ onde $a_1$ é primeiro termo, $a_2$ é o segundo, $a_n$ é o $n$-ésimo termo e assim por diante, numa sequência infinita, objeto de estudo do cálculo 3, todo número $a_n$ sempre terá um sucessor $a_{n+1}$.
 
 Nesse sentido, definindo formalmente:
 
->Uma sequência é uma [[Função]] real que tem como domínio o conjunto dos inteiros positivos, ou seja:
->$$f: \mathbb{Z^+} \rightarrow \mathbb{R}$$
+> Uma sequência é uma [[Função]] real que tem como domínio o conjunto dos inteiros positivos, ou seja:
+> $$f: \mathbb{Z^+} \rightarrow \mathbb{R}$$
 
 Denotamos uma sequência com a seguinte notação:
 
@@ -19,6 +22,7 @@ $$
 $$
 
 # Limite de uma sequência
+
 Uma sequência $\{a_n\}$ tem [[Limite|limite]] $L$ e denotamos por:
 
 $$
@@ -52,18 +56,23 @@ Além disso, se uma função $f$ contínua for aplicada aos termos de uma sequê
 $$
 \lim\limits_{n\rightarrow \infty} f(a_n) = f(L)
 $$
+
 Ou seja, uma função contínua aplicada aos termos de uma sequência convergente gera uma nova sequência convergente.
+
 # Sequências Crescentes e Decrescentes
+
 Uma sequência pode ser classificada como:
 
 1. Crescente: Se $a_n < a_{n+1}$, $\forall n \geq 1$
 2. Decrescente: Se $a_n > a_{n+1}$, $\forall n \geq 1$
 
 Se uma sequência for **Crescente** ou **Decrescente** ela é então classificada como uma sequência **Monótona**.
+
 # Sequências Limitadas
+
 Uma sequência $\{a_n\}$ é:
 
-1. **Limitada superiormente** se existe $M$ tal que $a_n\leq M$, $\forall n \geq 1$ 
+1. **Limitada superiormente** se existe $M$ tal que $a_n\leq M$, $\forall n \geq 1$
 2. **Limitada Inferiormente** se existe $m$ tal que $a_n\geq m$, $\forall n \geq 1$
 3. **Limitada** se for limitada superiormente e inferiormente
 

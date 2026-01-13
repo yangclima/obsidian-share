@@ -1,3 +1,5 @@
+# Integrais de linha
+
 Ao estudarmos as [[Integral definida|integrais unidimensionais]] entendemos como dividir um intervalo em infinitas partes infinitesimais pode nos ajudar a calcular a área sob o gráfico de uma função, um procedimento análogo pode ser usado como argumento geométrico para entender um novo conceito: **As integrais de linha**, veja:
 
 > Dada uma [[Curvas|curva]] $\vec{r}(t) = x(t)\hat{i} + y(t)\hat{j} + z(t)\hat{k}$ para $t \in [a,b]$ e uma função $f(x,y,z)$ definida sob esta curva (Ou seja, o domínio de $f$ inclui $C$), a integral de $f(x,y,z)$ sobre $C$ é definida como
@@ -16,6 +18,5 @@ Podemos estender esse conceito, utilizando da mesma intuição geométrica para 
 Muitas vezes essa integral é escrita na seguinte notação:
 
 > $$ \int_C F(x,y,z) \cdot T(z,y,z)\,ds = \int_C f(\vec{r}(t))d\vec{r}(t)$$
-
 
 A resolução de integrais de linha se resume então em, a partir de uma [[Parametrização de curvas|parametrização]] de uma curva $C$ substituir os termos nas formas vistas acima e então, resolver a integral.

@@ -5,6 +5,8 @@ tags:
 PERIODO: 3
 ---
 
+# Cáculo Integral e Diferencial 3
+
 # Cálculo Vetorial - Curvas
 
 1. [[calculo3/calculo-vetorial-curvas/parametrizacao-de-curvas|Parametrização de curvas]]

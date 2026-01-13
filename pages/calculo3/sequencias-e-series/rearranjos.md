@@ -1,3 +1,5 @@
+# Rearranjos
+
 Um resultado extremamente interessante foi obtido por Riemann com base na classificação das [[Séries]] a respeito da sua [[Convergência absoluta e condicional]]. Temos por **rearranjo** uma reorganização dos termos de uma sequência, perceba, os termos não mudam, só a sua ordem, por exemplo:
 
 $$

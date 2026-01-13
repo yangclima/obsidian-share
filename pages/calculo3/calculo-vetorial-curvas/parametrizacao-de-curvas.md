@@ -1,4 +1,6 @@
-As curvas mais gerais que podemos desenhar, como por exemplo a vista na seguinte imagem não podem ser descritas como [[Função|funções]] simples de $x$ ou de $y$, entretanto podemos utilizar de um processo denominado **Parametrização de curvas** para descrever a curva definindo $x$ e $y$ como funções de um determinado parâmetro $t$, ou seja, $x = f(t)$ e $y = g(t)$. O mais comum é que esses parâmetro seja o tempo, fazendo com que a curva descreva, por exemplo, a trajetória de uma partícula.
+# Parametrização de Curvas
+
+Mesmo as curvas mais gerais que podemos desenhar não podem ser descritas como [[Função|funções]] simples de $x$ ou de $y$, entretanto podemos utilizar de um processo denominado **Parametrização de curvas** para descrever a curva definindo $x$ e $y$ como funções de um determinado parâmetro $t$, ou seja, $x = f(t)$ e $y = g(t)$. O mais comum é que esses parâmetro seja o tempo, fazendo com que a curva descreva, por exemplo, a trajetória de uma partícula.
 
 Essa descrição paramétrica é útil já que através dela podemos aplicar os conceitos que já conhecemos do cálculo diferencial e integral a essa curvas, descobrindo propriedades como [[Cálculo da reta tangente ao gráfico de f(x)|reta tangente]], comprimento de arco, área e muito mais.
 

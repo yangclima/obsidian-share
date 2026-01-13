@@ -1,3 +1,5 @@
+# Teorema de Green
+
 O **Teorema de Green** é um teorema que permite relacionar uma [[Integrais de linha|integral de linha]] sobre uma curva $C$ a uma Integral dupla sobre a região $D$ que tem como fronteira a curva $C$ e enuncia o seguinte:
 
 > Seja uma curva $C$ plana, simples, fechada, contínua por partes, orientada positivamente (Percorrida no sentido anti-horário) e $D$ a região delimitada por $C$, Se $P$ e $Q$ possui [[Derivadas parciais]] de primeira ordem contínuas sobre uma região aberta que contenha $D$, então:
@@ -10,4 +12,3 @@ Um outro uso muito importante do **Teorema de Green** é para calcular áreas qu
 $$
 A = \oint_C xdy = -\oint_C ydx = \oint_C -\dfrac{1}{2}y\,dx + -\dfrac{1}{2}x\,dy
 $$
-

@@ -1,3 +1,5 @@
+# Estratégias para testes de séries
+
 Até agora desenvolvemos uma série de testes para a convergência de [[Séries]], porém, aplicar todos esses testes até que um funcione não é nada prático, desenvolvemos então a seguinte estratégia para avaliar a convergência ou divergência de uma série, classificando cada série de acordo com sua forma:
 
 1. Se a série tiver a forma de uma [[Séries Notáveis#Série harmônica|série harmônica]], ou seja $\sum 1/n^p$, sabemos que ela é convergente para $p > 1$ e divergente para $p \leq 1$.
@@ -7,4 +9,3 @@ Até agora desenvolvemos uma série de testes para a convergência de [[Séries]
 5. Se a série for da forma $\sum (-1)^{n-1}b_n$ ou $\sum (-1)^{n}b_n$ o [[Teste da Série Alternada]] é a opção correta.
 6. Se a série envolver fatoriais ou outro tipo de produto, a melhor opção é provavelmente o [[Teste da razão]].
 7. Para séries do tipo $\sum (b_n)^n$ o [[Teste da raiz]] pode ser útil
-

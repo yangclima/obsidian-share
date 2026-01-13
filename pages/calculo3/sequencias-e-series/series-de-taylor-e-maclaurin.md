@@ -1,3 +1,5 @@
+# Séries de Taylor e MacLaurin
+
 Agora que sabemos que algumas funções tem representações como [[Séries de Potências]] queremos agora, avaliar quais funções permitem esse tipo de representação e como podemos encontrá-las.
 
 Suponha que $f(x)$ é uma função:
@@ -44,7 +46,8 @@ $$
 
 Onde $f^{(n)}$ é a $n$-ésima derivada de $f$, nesse caso chegamos ao seguinte teorema:
 
-----
+---
+
 Se uma função $f$ tiver uma expansão (ou representação) em séries de potências em $a$, isto é:
 
 $$
@@ -63,7 +66,7 @@ $$
 f(x) = \sum_{n=0}^\infty \dfrac{f^{(n)}(a)}{n!}(x-a)^n \ \ \ \ \ \ \ |x-a| < R
 $$
 
-----
+---
 
 O caso especial onde $a =0$ ou seja para **Série de Taylor de $f$ em $0$** que equivale a:
 
@@ -85,9 +88,9 @@ $$
 \lim\limits_{n\to\infty} \left|\dfrac{a_{n+1}}{a_{n}}\right| = \lim\limits_{n\to\infty} \left|\dfrac{x^{n+1}}{(n+1)!}\cdot\dfrac{n!}{x^{n}}\right| = \lim\limits_{n\to\infty} \dfrac{|x|}{n+1} = 0 < 1
 $$
 
-Concluímos então, via teste da razão que como o dado limite é $0$ qualquer que seja o valor de $x$ então a série é convergente em para qualquer $x \in \mathbb{R}$ e portanto o raio de convergência é $R = \infty$. 
+Concluímos então, via teste da razão que como o dado limite é $0$ qualquer que seja o valor de $x$ então a série é convergente em para qualquer $x \in \mathbb{R}$ e portanto o raio de convergência é $R = \infty$.
 
-Por fim, nosso objetivo é avaliar que condições uma função deve obedecer para que o valor da própria função seja igual a soma da sua representação  em série de Taylor, ou seja, assumindo que $f$ tem derivadas de todas as ordens, queremos avaliar a validade da igualdade
+Por fim, nosso objetivo é avaliar que condições uma função deve obedecer para que o valor da própria função seja igual a soma da sua representação em série de Taylor, ou seja, assumindo que $f$ tem derivadas de todas as ordens, queremos avaliar a validade da igualdade
 
 $$
 f(x) = \sum_{n=0}^\infty \dfrac{f^{(n)}(a)}{n!}(x-a)^n
@@ -111,7 +114,7 @@ $$
 R_n(x) = f(x) - T_n(x)
 $$
 
-O **resto** da série de Taylor de tal forma que 
+O **resto** da série de Taylor de tal forma que
 
 $$
 f(x) = R_n(x) + T_n(x)
@@ -119,7 +122,8 @@ $$
 
 Vale então o seguinte teorema:
 
-----
+---
+
 Se $f(x) = R_n(x) + T_n(x)$, onde $T_n(x)$ é o polinômio de Taylor de $n$-ésimo grau de $f$ em $a$ e
 
 $$
@@ -128,4 +132,4 @@ $$
 
 Para $|x-a| < R$, então $f(x)$ é igual a soma da sua expansão em série de Taylor no intervalo $|x-a| < R$
 
-----
+---
