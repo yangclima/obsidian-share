@@ -19,7 +19,7 @@ const withMDX = createMDX({
         remarkWikiLink,
         {
           aliasDivider: "|",
-          hrefTemplate: (permalink) => `/calculo3/${permalink}`,
+          hrefTemplate: (permalink) => `/${permalink}`,
           pageResolver: (name) => [name.replace(/ /g, "-").toLowerCase()],
         },
       ],

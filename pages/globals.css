@@ -148,7 +148,7 @@ h6 {
 
 h1 {
   font-size: 2.5rem;
-  margin-top: 0;
+  margin-top: 2rem;
   padding-bottom: 0.75rem;
   border-bottom: 2px solid var(--color-border);
   background: linear-gradient(
@@ -358,29 +358,41 @@ img {
   margin: 1.5rem 0;
 }
 
-/* ===== Matemática (MathJax) ===== */
-.MathJax,
-mjx-container {
+/* ===== Matemática (MathJax/SVG) ===== */
+
+/* Tamanho base */
+mjx-container,
+.MathJax {
   font-size: 1.1em !important;
 }
 
 /* Equações inline */
 mjx-container:not([display="true"]) {
-  display: inline !important;
-  margin: 0 0.1em !important;
+  display: inline-block !important;
+  vertical-align: middle !important;
+  margin: 0 0.15em !important;
+  padding: 0 !important;
+  background: transparent !important;
+  border: none !important;
 }
 
-/* Equações em bloco */
-mjx-container[display="true"],
-.MathJax_Display {
+/* Equações em bloco - wrapper customizado */
+mjx-container[display="true"] {
   display: block !important;
-  margin: 2rem auto !important;
-  padding: 1.5rem;
-  background: var(--color-bg-secondary);
-  border-radius: 0.75rem;
-  border: 1px solid var(--color-border);
-  overflow-x: auto;
-  text-align: center;
+  width: 100% !important;
+  margin: 3rem 0 !important;
+  padding: 2rem 1.5rem !important;
+  background: var(--color-bg-secondary) !important;
+  border-radius: 0.75rem !important;
+  border: 1px solid var(--color-border) !important;
+  overflow-x: auto !important;
+  text-align: center !important;
+}
+
+/* Centraliza o SVG dentro do container */
+mjx-container[display="true"] > svg {
+  display: block !important;
+  margin: 0 auto !important;
 }
 
 /* ===== Seleção de Texto ===== */
