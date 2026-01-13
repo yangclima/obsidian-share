@@ -7,5 +7,11 @@ const components = {
 };
 
 export default function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+  return (
+    <div className="page-wrapper">
+      <main className="content">
+        <Component {...pageProps} />
+      </main>
+    </div>
+  );
 }
