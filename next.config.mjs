@@ -18,9 +18,8 @@ const withMDX = createMDX({
       [
         remarkWikiLink,
         {
-          // Define como o link será gerado no HTML
+          aliasDivider: "|",
           hrefTemplate: (permalink) => `/calculo3/${permalink}`,
-          // Opcional: define uma classe CSS para os links
           pageResolver: (name) => [name.replace(/ /g, "-").toLowerCase()],
         },
       ],
