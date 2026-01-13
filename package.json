@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --webpack",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"
@@ -15,7 +15,10 @@
     "@types/mdx": "^2.0.13",
     "next": "16.1.1",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-dom": "19.2.3",
+    "rehype-mathjax": "^7.1.0",
+    "remark-math": "^6.0.0",
+    "remark-wiki-link": "^2.0.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
